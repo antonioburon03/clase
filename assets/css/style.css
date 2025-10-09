@@ -15,8 +15,8 @@ html {
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-	color: oklch(0% 0 0 / 0.572);
-	background-color: #bbd0f7;
+	color: oklch(100% 0.00011 271.152 / 0.572);
+	background-color: #111023;
 	margin: 0;
 	padding: 0;
 }
