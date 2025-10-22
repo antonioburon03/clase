@@ -1,0 +1,117 @@
+/* ======== ESTRUCTURA GENERAL ======== */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+/* ======== HEADER ======== */
+.portfolio-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.portfolio-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.portfolio-nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.portfolio-nav a:hover {
+  color: #000;
+}
+
+/* ======== SECCIONES ======== */
+.portfolio-section {
+  padding: 3rem 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-section h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+  border-left: 4px solid #000;
+  padding-left: 0.6rem;
+}
+
+/* ======== IFRAMES ======== */
+iframe {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ======== TARJETAS ======== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  color: #000; /* TEXTO NEGRO */
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #000; /* TITULOS NEGROS */
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  color: #000; /* TEXTO NEGRO */
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #333;
+  font-size: 0.9rem;
+}
